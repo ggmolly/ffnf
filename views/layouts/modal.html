@@ -1,0 +1,9 @@
+<dialog id="{{.ModalID}}" class="modal" _="on load call me.showModal()">
+    <div class="modal-box">
+        <h3 class="font-bold text-lg mb-2">{{.ModalTitle}}</h3>
+        {{embed}}
+    </div>
+    <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+    </form>
+</dialog>
